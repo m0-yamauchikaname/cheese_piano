@@ -3,7 +3,7 @@
 #1．	システムの概要
 今回は「一口サイズのメロディー」をテーマにした「静電センサー電子ピアノ」を作成した.作成したシステムを図1に示す.
  
-![図1作成したシステム](https://github.com/m0-yamauchikaname/cheese_piano/blob/main/fig/fig1.png)
+![図1作成したシステム](https://github.com/m0-yamauchikaname/cheese_piano/blob/main/fig/fig1_1.png)
 構成要素を以下に示す.
 1.	鍵盤(9個)
 2.	ブザー(1個)
