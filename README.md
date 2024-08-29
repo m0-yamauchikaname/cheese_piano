@@ -13,6 +13,8 @@
 
 構成要素とシステムを正面から見た図と側面から見た図を図2に示す.
   
+![図2システムを正面から見た図(上)横から見た図(下)](https://github.com/m0-yamauchikaname/cheese_piano/blob/main/fig/fig2_1.png)
+
 ![図2システムを正面から見た図(上)横から見た図(下)](https://github.com/m0-yamauchikaname/cheese_piano/blob/main/fig/fig2.png)
 
  
