@@ -1,4 +1,4 @@
-S#include "IR.h"
+S#include "IR.h"////赤外線リモコン用のヘッダー
 
 #include "canon.h"//カノン演奏用のヘッダー
 #include "IRremote.h"//赤外線リモコン用のヘッダー
@@ -183,6 +183,20 @@ void remote(){
     irrecv.resume(); // receive the next value
   }
  }
+
+//音楽再生用の関数
+void Music_Play(){
+ // if(mode==1){
+    if(music==0){canon();}
+        if(music==1){cantry();}
+        if(music==8){canonfull();}
+        if(music==9){summer();}
+  //}
+}
+void modechange(){
+if(mode==0){mode=1;}
+  else if(mode==1){mode=0;}
+  }
  
  
  // 値を転送(デバッグ用)
@@ -215,15 +229,3 @@ void remote(){
    
    }
 */
-void Music_Play(){
- // if(mode==1){
-    if(music==0){canon();}
-        if(music==1){cantry();}
-        if(music==8){canonfull();}
-        if(music==9){summer();}
-  //}
-}
-void modechange(){
-if(mode==0){mode=1;}
-  else if(mode==1){mode=0;}
-  }
