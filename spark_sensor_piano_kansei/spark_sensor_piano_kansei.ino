@@ -1,8 +1,8 @@
 S#include "IR.h"
 
-#include "canon.h"
-#include "IRremote.h"
-#include <NewTone.h>
+#include "canon.h"//カノン演奏用のヘッダー
+#include "IRremote.h"//赤外線リモコン用のヘッダー
+#include <NewTone.h>//周波数用のヘッダー
 
 //シリアル通信の準備
 IRrecv irrecv(RECEIVER); 
